@@ -18,7 +18,7 @@ function getDefinition(){
       //   };
       //   ui.fill(res);
       // })
-      
+      console.log(results);
       ui.fill(results);
     })
     .catch(err => console.log(err));
