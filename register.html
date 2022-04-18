@@ -15,12 +15,12 @@
           <h3>Register</h3>
         </div>
         <div class="card-body">
-          <form id="login-form">
+          <form id="register-form">
             <div class="input-group form-group">
               <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-user"></i></span>
               </div>
-              <input type="text" class="form-control" placeholder="Please enter a valid emails" name="username">
+              <input type="text" class="form-control" placeholder="Please enter a valid email" name="username">
               
             </div>
             <div class="input-group form-group">
@@ -33,10 +33,12 @@
               <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-key"></i></span>
               </div>
-              <input type="password2" class="form-control" placeholder="Please re-enter password" name="password2">
+              <input type="password" class="form-control" placeholder="Please re-enter password" name="password2">
             </div>
             <div class="form-group">
               <input type="submit" value="Register" class="btn float-right login_btn" id="register-form-submit">
+              <div class="success" id="register-success"></div>
+              <div class="warning" id="register-fail"></div>
             </div>
           </form>
         </div>
