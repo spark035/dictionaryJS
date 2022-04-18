@@ -17,7 +17,7 @@ document.getElementById('w-change-btn').addEventListener('click',(e) => {
   const query = document.getElementById('word');
 
   definition.changeQuery(query.value.replace(" ", '%20'));
-
+  
   // Get weather and reload weather display
   getDefinition();
 
